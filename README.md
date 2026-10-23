@@ -30,25 +30,15 @@ The first matching rule wins.
 
 
 | Condition | Priority | Destination |
-
 |---|---|---|
-
 | Invalid ticket or customer data | Invalid | None |
-
 | Security-related issue | Critical | Security |
-
 | Technical issue affecting at least 100 users | Critical | Technical |
-
 | Premium customer with a technical issue | High | Technical |
-
 | Billing issue waiting at least 24 hours | High | Billing |
-
 | Subscription escalation threshold reached | High | According to category |
-
 | Anonymous account issue | Normal | Account |
-
 | General enquiry from a Free customer | Low | General |
-
 | Any other valid ticket | Normal | According to category |
 
 
